@@ -1,8 +1,3 @@
-local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/kickTh/New-Ui/main/discord%20lib%20(1).txt")()
-
-local win = DiscordLib:Window("YedHod")
-
-
     spawn(function()
         pcall(function()
             while wait() do
