@@ -165,37 +165,37 @@ end)
         if game.Workspace:FindFirstChild("LOL") then
             game.Workspace:FindFirstChild("LOL").Color = Color3.new(255/255,0/255,0/255)
             for i = 0,255,10 do
-                wait(15)
+                wait(.1)
                 if game.Workspace:FindFirstChild("LOL") then
                     game.Workspace:FindFirstChild("LOL").Color = Color3.new(255/255,i/255,0/255)
                 end
             end
             for i = 255,0,-10 do
-                wait(15)
+                wait(.1)
                 if game.Workspace:FindFirstChild("LOL") then
                     game.Workspace:FindFirstChild("LOL").Color = Color3.new(i/255,255/255,0/255)
                 end
             end
             for i = 0,255,10 do
-                wait(15)
+                wait(.1)
                 if game.Workspace:FindFirstChild("LOL") then
                     game.Workspace:FindFirstChild("LOL").Color = Color3.new(0/255,255/255,i/255)
                 end
             end
             for i = 255,0,-10 do
-                wait(15)
+                wait(.1)
                 if game.Workspace:FindFirstChild("LOL") then
                     game.Workspace:FindFirstChild("LOL").Color = Color3.new(0/255,i/255,255/255)
                 end
             end
             for i = 0,255,10 do
-                wait(15)
+                wait(.1)
                 if game.Workspace:FindFirstChild("LOL") then
                     game.Workspace:FindFirstChild("LOL").Color = Color3.new(i/255,0/255,255/255)
                 end
             end
             for i = 255,0,-10 do
-                wait(15)
+                wait(.1)
                 if game.Workspace:FindFirstChild("LOL") then
                     game.Workspace:FindFirstChild("LOL").Color = Color3.new(255/255,0/255,i/255)
                 end
